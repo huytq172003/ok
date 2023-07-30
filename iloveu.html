@@ -89,15 +89,15 @@
  
 <BODY onload="addEvent()">
     <script>
-        function addEvent(){
-           document.body.addEventListener("click", play)
-         }
-        function play() {
-          var audio = document.getElementById("audio");
-          audio.play();
-        }
-      </script>
-    <audio src="nhac.mp3"></audio>
+      function addEvent(){
+         document.body.addEventListener("click", play)
+       }
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+    <audio id="audio" src="sound/nhac.mp3"></audio>
     <div class="box">
         <canvas id="pinkboard"></canvas>
     </div>
