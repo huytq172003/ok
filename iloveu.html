@@ -87,7 +87,7 @@
     </style>
 </HEAD>
  
-<BODY>
+<BODY onload="addEvent()">
     <script>
         function addEvent(){
            document.body.addEventListener("click", play)
@@ -97,7 +97,7 @@
           audio.play();
         }
       </script>
-    <audio src="nhac.mp3" autoplay ></audio>
+    <audio src="nhac.mp3"></audio>
     <div class="box">
         <canvas id="pinkboard"></canvas>
     </div>
